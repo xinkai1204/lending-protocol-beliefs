@@ -5,9 +5,9 @@ from src.utils import generate_piecewise_linear_irm, generate_linear_supply
 # Model Parameters
 investment_time = 1 / 12
 std_beliefs = 0.05
-mean_beliefs = 0.07
+mean_beliefs = -0.07
 traders_initial_budget = 1.0
-std_crypto_returns = 0.5
+std_crypto_returns = 0.02
 gamma = 0.5
 hc = 0.30
 hs = 0.30
